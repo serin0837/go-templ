@@ -1,1 +1,3 @@
-# go-templ
+# go-templ 
+
+playground for go-templ
