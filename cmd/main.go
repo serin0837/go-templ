@@ -9,7 +9,7 @@ func main() {
 	app := echo.New()
 
 	userHandler := handler.UserHandler{}
-	app.GET("/", userHandler.HandlerUserShow)
+	app.GET("/user", userHandler.HandlerUserShow)
 	app.Start(":3333")
 
 }
