@@ -1,0 +1,2 @@
+<html><head></head><body>from base layout 
+</body></html>
