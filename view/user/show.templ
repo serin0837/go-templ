@@ -1,10 +1,16 @@
 package user
 
-import "github.com/serin0837/go-templ/view/layout"
+import (
+    "github.com/serin0837/go-templ/model"
+    "github.com/serin0837/go-templ/view/layout"
+     "github.com/serin0837/go-templ/view/components"
+    )
 
-templ Show() {
+templ Show(user model.User) {
     @layout.Base(){
-          <h1> user in here</h1>
+
+          <h1> hello {user.Email} user in here</h1>
+          @components.Input("email", "email")
     }
   
 }

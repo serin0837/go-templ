@@ -10,7 +10,7 @@ func main() {
 
 	userHandler := handler.UserHandler{}
 	app.GET("/user", userHandler.HandlerUserShow)
-	app.Start(":3333")
+	app.Start(":3000")
 
 }
 
